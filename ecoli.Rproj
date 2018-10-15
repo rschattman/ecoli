@@ -1,0 +1,31 @@
+---
+title: "EcoliSEM"
+author: "Rachel Schattman"
+date: "October 15, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries
+
+```{r}
+library()
+
+```
+
+## Read in data as a data frame
+
+```{r}
+Ecoli <- read.csv("C:\\Users\\rschattman\\Documents\\Research\\Neher project 2017\\Results\\Take 2\\Spinach_10_2018.csv", head = TRUE, stringsAsFactors = FALSE)
+
+```
+
+## Check column heads
+
+```{r}
+head(Ecoli)
+
+```
